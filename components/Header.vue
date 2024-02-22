@@ -1,7 +1,5 @@
 <script lang="ts" setup>
 const [value, toggle] = useToggle()
-const defaultValue = 'item-1'
-
 const menus = [
   { key: 'Home', content: 'Home', url: '/' },
   { key: 'About', content: 'About us', url: '/about' },

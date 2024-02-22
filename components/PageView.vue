@@ -13,22 +13,24 @@ const services = [
       class="bg-[url(https://wptf.themepul.co/restly/wp-content/uploads/2021/04/banner-home.jpg)]"
       bg="~ center cover no-repeat"
     >
-      <div class="mx-auto w-full lg:w-5/6 md:w-4/5">
-        <div class="py-30 text-center text-white md:py-50">
-          <h6 class="mb-5 text-5 font-600 uppercase">
-            Empower your business
-          </h6>
-          <h2 class="mb-5 text-18 font-700 leading-[70px] uppercase">
-            Excellent IT services for your success
-          </h2>
-          <div class="mt-9 px-7 py-3 font-600 btn">
-            <a href="https://wptf.themepul.co/restly/contact-us/" class="theme-btns">Meet With Us</a>
+      <div class="mx-auto container">
+        <div class="mx-auto w-full lg:w-2/3 md:w-4/5">
+          <div class="py-30 text-center text-white md:py-50">
+            <h6 class="mb-5 text-5 font-600 uppercase">
+              Empower your business
+            </h6>
+            <h2 class="mb-5 text-18 font-700 leading-[70px]">
+              Excellent IT services for your success
+            </h2>
+            <div class="mt-9 px-7 py-3 font-600 btn">
+              <a href="https://wptf.themepul.co/restly/contact-us/" class="theme-btns">Meet With Us</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="mt-20">
+  <section class="mx-auto my-20 px-6 container">
     <div class="grid grid-cols-1 gap-10 lg:grid-cols-4 md:(grid-cols-2 gap-8)">
       <div v-for="service in services" :key="service.key" class="group relative overflow-hidden border rounded px-5 py-7 shadow-sm">
         <div class="flex flex-col gap-4">
